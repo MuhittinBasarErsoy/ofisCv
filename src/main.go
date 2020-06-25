@@ -6,7 +6,6 @@ import (
 	"os"
 )
 
-//MAIN   SDD
 func main() {
 	config := config.GetConfig()
 	port := os.Getenv("PORT")
