@@ -6,6 +6,7 @@ import (
 	"os"
 )
 
+//MAIN
 func main() {
 	config := config.GetConfig()
 	port := os.Getenv("PORT")
